@@ -1,11 +1,11 @@
 Summary:	XSL stylesheets for the Yelp help browser
 Name:		yelp-xsl
-Version:	3.12.0
+Version:	3.14.0
 Release:	1
 License:	LGPL v2+
 Group:		Libraries
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/yelp-xsl/3.12/%{name}-%{version}.tar.xz
-# Source0-md5:	662317dc4f6aeafce0d4ffb2b3766115
+Source0:	http://ftp.gnome.org/pub/GNOME/sources/yelp-xsl/3.14/%{name}-%{version}.tar.xz
+# Source0-md5:	8965c1363857f223a6b761af6a37363d
 URL:		http://projects.gnome.org/yelp/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -14,6 +14,7 @@ BuildRequires:	intltool
 BuildRequires:	itstool
 BuildRequires:	libxml2-devel
 BuildRequires:	libxslt-devel
+BuildRequires:	perl-XML-Parser
 BuildRequires:	pkg-config
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
